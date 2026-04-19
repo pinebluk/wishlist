@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Plus, X, Edit2, Gift, Star, LogOut } from 'lucide-react';
 import { supabase } from './supabase';
 
-const users = ['小粉蓝', '茂茂', '敏敏', '霜霜', '米粒儿'];
+const users = ['茂茂', '敏敏', '霜霜', '米粒儿'];
 const avatarInitial = (name) => name.slice(-1);
 
 const ink = '#2C1F14';
@@ -77,10 +77,10 @@ const LoginPage = ({ onLogin }) => (
   }}>
     <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
       <div style={{ fontSize: '0.75rem', letterSpacing: '0.4em', color: muted, marginBottom: '0.75rem' }}>
-        ── 心 愿 手 账 ──
+        ── 给 我 买 嘛 ──
       </div>
       <h1 style={{ fontSize: '2rem', fontWeight: 300, color: ink, letterSpacing: '0.15em' }}>
-        小粉蓝的心愿单
+        心愿单
       </h1>
       <div style={{ width: 48, height: 1, background: rose, margin: '1.25rem auto' }} />
       <p style={{ color: muted, fontSize: '0.8rem', letterSpacing: '0.2em' }}>请选择你的身份</p>
