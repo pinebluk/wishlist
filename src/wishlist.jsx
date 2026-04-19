@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Heart, Plus, X, Edit2, Gift, Star, Sparkles } from 'lucide-react';
 import { supabase } from './supabase';
 
-const users = ['茂茂', '敏敏', '霜霜', '米粒儿', 'D'];
+const users = ['茂茂', '敏敏', '霜霜', '米粒儿'];
 
 const WishlistApp = () => {
   const [currentUser, setCurrentUser] = useState('小粉蓝');
