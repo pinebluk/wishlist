@@ -190,8 +190,8 @@ const WishlistMain = () => {
         background: paper, position: 'sticky', top: 0, zIndex: 10,
       }}>
         <div>
-          <div style={{ fontSize: '0.65rem', letterSpacing: '0.35em', color: muted }}>心 愿 手 账</div>
-          <div style={{ fontSize: '1.05rem', fontWeight: 400, color: ink, letterSpacing: '0.1em' }}>小粉蓝的心愿单</div>
+          <div style={{ fontSize: '0.65rem', letterSpacing: '0.35em', color: muted }}>给 我 买 嘛</div>
+          <div style={{ fontSize: '1.05rem', fontWeight: 400, color: ink, letterSpacing: '0.1em' }}>心愿单</div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', color: muted }}>
