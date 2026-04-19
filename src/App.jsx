@@ -1,7 +1,2 @@
-import WishList from './wishlist';
-
-function App() {
-  return <WishList />;
-}
-
-export default App;
+import App from './wishlist'
+export default App
